@@ -128,4 +128,4 @@ The `--wff_jsonl` argument is optional. If omitted, error-category analysis is s
 
 ## AI-generated Docstrings
 
-AI生成されたdocstringの詳細なリストは `ai-generated-docstrings.txt` を参照してください。
+See `ai-generated-docstrings.txt` for a detailed list of AI-generated docstrings.
