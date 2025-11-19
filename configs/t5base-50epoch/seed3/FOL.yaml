@@ -1,0 +1,40 @@
+data:
+  input_column: text
+  shuffle: true
+  source: data/fol
+  target_column: formula
+  test_file: test.csv
+  train_file: train.csv
+  validation_file: trial.csv
+evaluation:
+  dependencies:
+    drs_parsing_path: DRS_parsing
+    vampire_path: vampire-4.9casc2024/build/bin/vampire
+generation:
+  max_length: 512
+  num_beams: 4
+model:
+  max_length: 256
+  max_output_length: 256
+  name: google-t5/t5-base
+seed: 3
+training:
+  eval_steps: 250
+  evaluation_strategy: steps
+  fp16: false
+  gradient_accumulation_steps: 4
+  greater_is_better: false
+  learning_rate: 1.0e-05
+  load_best_model_at_end: true
+  logging_dir: results/exp_fol_t5base_ep50/logs_seed3
+  logging_steps: 50
+  metric_for_best_model: eval_loss
+  num_train_epochs: 50
+  output_dir: results/exp_fol_t5base_ep50_seed3
+  per_device_eval_batch_size: 32
+  per_device_train_batch_size: 16
+  save_steps: 250
+  save_strategy: steps
+  save_total_limit: 1
+  warmup_steps: 500
+  weight_decay: 0.01

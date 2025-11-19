@@ -1,0 +1,41 @@
+[project]
+name = "neural-semantic-parsing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.7.0",
+    "colorama>=0.4.6",
+    "datasets>=3.6.0",
+    "pandas>=2.3.0",
+    "psutil>=7.0.0",
+    "pydantic>=2.11.5",
+    "pytest>=8.4.0",
+    "pytest-cov>=6.1.1",
+    "pyyaml>=6.0.2",
+    "scikit-learn>=1.7.0",
+    "scipy>=1.15.3",
+    "transformers>=4.52.4",
+    "sentencepiece>=0.2.0",
+    "torch>=2.7.1",
+    "nltk>=3.9.1",
+    "lxml>=6.0.0",
+    "seaborn>=0.13.2",
+    "matplotlib>=3.10.5",
+    "tabulate>=0.9.0",
+    "openai>=1.99.9",
+    "httpx>=0.28.1",
+    "langchain>=0.3.27",
+    "langchain-openai>=0.3.30",
+    "python-dotenv>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "datasets>=3.6.0",
+    "pandas>=2.3.0",
+    "pytest>=8.4.0",
+    "torch>=2.7.1",
+    "transformers>=4.52.4",
+]
