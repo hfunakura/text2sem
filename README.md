@@ -1,5 +1,23 @@
 # A Theorem-Proving-Based Evaluation of Neural Semantic Parsing
-The codebase for "A Theorem-Proving-Based Evaluation of Neural Semantic Parsing," by Hayate Funakura, Hyunsoo Kim, and Koji Mineshima (BlackboxNLP 2025)
+The codebase for ["A Theorem-Proving-Based Evaluation of Neural Semantic Parsing," by Hayate Funakura, Hyunsoo Kim, and Koji Mineshima (BlackboxNLP 2025)](https://aclanthology.org/2025.blackboxnlp-1.18/)
+
+To cite this paper and source code:
+```
+@inproceedings{funakura-etal-2025-theorem,
+    title = "A Theorem-Proving-Based Evaluation of Neural Semantic Parsing",
+    author = "Funakura, Hayate  and
+      Kim, Hyunsoo  and
+      Mineshima, Koji",
+    booktitle = "Proceedings of the 8th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.blackboxnlp-1.18/",
+    doi = "10.18653/v1/2025.blackboxnlp-1.18",
+    pages = "295--306"
+}
+```
 
 ## Environment
 
