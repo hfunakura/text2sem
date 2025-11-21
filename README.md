@@ -129,3 +129,9 @@ The `--wff_jsonl` argument is optional. If omitted, error-category analysis is s
 ## AI-generated Docstrings
 
 See `ai-generated-docstrings.txt` for a detailed list of AI-generated docstrings.
+
+## License
+
+This project is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+[![CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
